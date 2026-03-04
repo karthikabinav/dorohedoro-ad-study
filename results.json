@@ -1,0 +1,19 @@
+{
+  "study_info": {
+    "anime": "Dorohedoro",
+    "premiere_date": "2020-01-13",
+    "analysis_date": "2020-01-14",
+    "database_id": "21b97551-844e-8068-b387-fe7a56b04348"
+  },
+  "status": "pending_api_access",
+  "rate_limited": true,
+  "results": null,
+  "last_attempt": "2025-03-04",
+  "next_steps": [
+    "Wait for rate limit reset",
+    "Execute Notion database query",
+    "Extract SpentAmount values",
+    "Calculate average",
+    "Update this file with results"
+  ]
+}
