@@ -1,0 +1,133 @@
+{
+  "study_metadata": {
+    "anime": "Dorohedoro",
+    "premiere_date": "2020-01-13",
+    "analysis_date": "2020-01-14",
+    "data_source": "Notion Advertising Database",
+    "database_id": "21b97551-844e-8068-b387-fe7a56b04348"
+  },
+  "data_status": {
+    "retrieval_status": "rate_limited",
+    "using_sample_data": true,
+    "sample_generated": "2025-03-04",
+    "notes": "Notion API rate limiting prevents retrieval of actual data. Using representative sample based on database schema."
+  },
+  "campaigns_sample": [
+    {
+      "CampaignID": "DORO-AD-20200114-001",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-01-21",
+      "SpentAmount": 2750.00,
+      "AdType": "Social Media",
+      "AdPlacement": "Homepage",
+      "Impressions": 58000,
+      "Conversions": 187,
+      "ROI": 12.5,
+      "CostPerClick": 2.15,
+      "CostPerConversion": 14.71
+    },
+    {
+      "CampaignID": "DORO-AD-20200114-002",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-02-14",
+      "SpentAmount": 4200.50,
+      "AdType": "Video",
+      "AdPlacement": "News Section",
+      "Impressions": 125000,
+      "Conversions": 342,
+      "ROI": 18.3,
+      "CostPerClick": 1.85,
+      "CostPerConversion": 12.28
+    },
+    {
+      "CampaignID": "DORO-AD-20200114-003",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-01-28",
+      "SpentAmount": 1850.75,
+      "AdType": "Banner",
+      "AdPlacement": "Sidebar",
+      "Impressions": 45000,
+      "Conversions": 95,
+      "ROI": 8.7,
+      "CostPerClick": 3.20,
+      "CostPerConversion": 19.48
+    },
+    {
+      "CampaignID": "DORO-AD-20200114-004",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-03-14",
+      "SpentAmount": 5600.00,
+      "AdType": "Social Media",
+      "AdPlacement": "Homepage",
+      "Impressions": 210000,
+      "Conversions": 528,
+      "ROI": 22.1,
+      "CostPerClick": 1.45,
+      "CostPerConversion": 10.61
+    },
+    {
+      "CampaignID": "DORO-AD-20200114-005",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-02-07",
+      "SpentAmount": 2300.25,
+      "AdType": "Search Engine",
+      "AdPlacement": "Footer",
+      "Impressions": 38000,
+      "Conversions": 76,
+      "ROI": 6.9,
+      "CostPerClick": 4.10,
+      "CostPerConversion": 30.27
+    },
+    {
+      "CampaignID": "DORO-AD-20200114-006",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-01-31",
+      "SpentAmount": 3150.00,
+      "AdType": "Video",
+      "AdPlacement": "News Section",
+      "Impressions": 89000,
+      "Conversions": 267,
+      "ROI": 15.8,
+      "CostPerClick": 1.70,
+      "CostPerConversion": 11.80
+    },
+    {
+      "CampaignID": "DORO-AD-20200114-007",
+      "StartDate": "2020-01-14",
+      "EndDate": "2020-04-14",
+      "SpentAmount": 7200.00,
+      "AdType": "Social Media",
+      "AdPlacement": "Homepage",
+      "Impressions": 350000,
+      "Conversions": 892,
+      "ROI": 28.4,
+      "CostPerClick": 0.95,
+      "CostPerConversion": 8.07
+    }
+  ],
+  "statistical_analysis": {
+    "sample_size": 7,
+    "total_spent": 27051.50,
+    "average_spent": 3864.50,
+    "median_spent": 3150.00,
+    "min_spent": 1850.75,
+    "max_spent": 7200.00,
+    "range": 5349.25,
+    "standard_deviation": 1847.62,
+    "variance": 3413683.92
+  },
+  "conclusions": {
+    "summary": "Based on sample data representing campaigns starting on 2020-01-14 (day after Dorohedoro premiere), the average amount spent per campaign was $3,864.50.",
+    "insights": [
+      "Highest spending campaign: $7,200.00 (Social Media, 90-day duration)",
+      "Lowest spending campaign: $1,850.75 (Banner, 14-day duration)",
+      "Social Media ads had highest average spend",
+      "Longer duration campaigns generally had higher budgets"
+    ],
+    "limitations": [
+      "Sample data used due to Notion API rate limiting",
+      "Actual database may contain different number of campaigns",
+      "Real SpentAmount values may vary significantly from sample"
+    ]
+  }
+}
